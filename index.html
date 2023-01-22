@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.14.2/matter.min.js"></script>
+    <style>
+      body {
+        margin: 0;
+      }
+
+      .is-hidden {
+        display: none !important;
+      }
+
+      h1 {
+        color: whitesmoke;
+        font-size: 65px;
+      }
+
+      h2 {
+        color: gold;
+        font-size: 50px;
+      }
+
+      .win-text, .next-level {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        z-index: 1;
+        height: 100vh;
+        width: 100vw;
+      }
+
+      .timer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        z-index: 1;
+        height: 100vh;
+        width: 100vw;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="win-text is-hidden">
+      <h1> AMAZING EFFORT. YOU WIN !!!</h1>
+    </div>
+    <div class="timer is-hidden">
+      <h2>It took you</h2>
+    </div>
+    <div class="next-level is-hidden">
+      <h2> Would you like to play next level? </h2>
+      <input class="i">Hit Y or N</input>
+    </div>
+    
+    <script src="index.js"></script>
+  </body>
+</html>
