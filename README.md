@@ -1,4 +1,4 @@
-My Maze 
+Maze Runner 
 is a 2D game, logically similar to "bounce game".
 Renders a traditional side-scrolling game experience on a remote environment.
 Can best be enjoyed on desktop computers and other wide-screen video machines that support standard web browsers.
