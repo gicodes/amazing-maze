@@ -1,4 +1,4 @@
-# maze-runner.game
+# maze-runner game
 - is a 2D game logically similar to the popular 'bounce game'.
 - Was built with javascript and HTML. Matter is a key dependency.
 
